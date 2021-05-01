@@ -1,1 +1,0 @@
-# kristinakoneva.github.io
