@@ -1,0 +1,381 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*NAVIGATION BAR / HEADER*/
+.header-container {
+    display: flex;
+    align-items: center;
+}
+
+#logo {
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+    margin-left: 200px;
+    margin-right: 30px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: white;
+}
+#name-header {
+    margin-right: 320px;
+    font-size: 25px;
+    color: white;
+}
+header a {
+    color: white;
+}
+header {
+    width: 100%;
+    height: 90px;
+    background-color: #285767;
+    position: fixed;
+    top: 0;
+}
+header p {
+    color: white;
+}
+nav ul {
+    list-style: none;
+}
+nav li {
+    display: inline-block;
+    text-align: center;
+    background-color: #285767;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.active {
+    background-color: #59A0B6;
+}
+nav li a p{
+    padding: 27px 0;
+    width:150px;
+}
+nav li:hover {
+    background-color: #316B7E;
+
+}
+a {
+    text-decoration: none;
+}
+header a:visited {
+    color:white;
+}
+
+section {
+    width: 80%;
+    margin: auto;
+    text-align: justify;
+}
+section h1 {
+    font-size: 40px;
+    text-align: center;
+    margin: 20px 0;
+    color: #285767;
+}
+section p{
+   line-height: 40px;
+    font-size: 20px;
+}
+.home-section {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+/*paragraphs + images , images in a row*/
+.about-me-section {
+    text-align: justify;
+    font-size: 20px;
+}
+.about-me-first-paragraph {
+    margin: 10px auto;
+}
+.paragraph {
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    align-items: center;
+    justify-content: space-between;
+}
+.paragraph p{
+    width: 1000px;
+}
+.paragraph img{
+    height: 300px;
+    width: 500px;
+    object-fit: scale-down;
+}
+
+.photos {
+    display: flex;
+    margin: 10px 0;
+    justify-content: space-evenly;
+
+}
+.photos img {
+    height: 300px;
+    width: 500px;
+    object-fit: scale-down;
+
+
+}
+.eco-camp a {
+    color: mediumpurple;
+}
+/*TITLE WITH MARGIN*/
+.title-margin {
+    margin-top: 110px;
+}
+/*EDUCATION*/
+.uni {
+    margin: 20px;
+}
+.past-education {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.school {
+    display: flex;
+    align-items: center;
+    width: 620px;
+    height: 450px;
+    justify-content: space-between;
+}
+.school img {
+    height: 500px;
+    width: 300px;
+    object-fit: scale-down;
+}
+.school ul {
+    list-style-position: inside;
+    list-style-type: circle;
+}
+.high-school, .elementary-school{
+    border: #285767 solid;
+    padding: 50px;
+
+}
+.education-content {
+    margin-top: 20px;
+    line-height: 30px;
+
+}
+.certificates ul {
+    margin: 20px 0;
+}
+h3 {
+    color: #285767;
+}
+/*gradient titles*/
+section h2 {
+    background-image: linear-gradient(to right, #285767,#8CD4EA);
+    color: white;
+    padding: 20px;
+    margin-top: 40px;
+}
+/*HOME PAGE CONTENT*/
+.home-content-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 70px;
+    background-image: linear-gradient(to right, #285767,#8CD4EA);
+    line-height: 70px;
+}
+.home-content-container img {
+    width: 50%;
+    height: 50%;
+}
+.welcome {
+    text-align: center;
+    font-size: 20px;
+    margin-left: 200px;
+    color: white;
+
+}
+.welcome h1 {
+    font-size: 50px;
+    text-shadow: 10px 10px 10px #285767;
+}
+.box {
+    width: 300px;
+    height: 400px;
+    border-radius: 20%;
+    border: 2px solid #285767;
+    margin: 50px 0;
+}
+.icon {
+    display: block;
+    width: 150px;
+    height: 150px;
+    margin: 20px auto;
+}
+.box p {
+    text-align: center;
+    color: #285767;
+    font-weight: bold;
+    font-size: 25px;
+}
+.box hr {
+    border: none;
+    height: 1px;
+    background-color: #285767;
+    margin: 10px 25px;
+}
+/*BUTTONS*/
+button {
+    background-color: #285767;
+    color: white;
+    width: 200px;
+    height: 70px;
+    margin-top: 30px;
+    border-radius: 25%;
+    font-size:20px;
+}
+button {
+   border: none;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #316B7E;
+    color: white;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    cursor: pointer;
+}
+button a:visited {
+    text-decoration: none;
+    color: white;
+}
+
+.btn-read-more {
+    display: block;
+    margin: 40px auto;
+}
+
+/*TIMELINE*/
+/*.timeline {*/
+/*    display: flex;*/
+/*    overflow-x: hidden;*/
+/*}*/
+/*.timeline img {*/
+/*    height: 250px;*/
+/*    margin-top: 70px;*/
+/*    object-fit: scale-down;*/
+/*}*/
+
+/*TRAVEL*/
+.first-row-gallery, .second-row-gallery, .third-row-gallery, .fourth-row-gallery, .fifth-row-gallery, .sixth-row-gallery {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 30px 0;
+    align-items: center;
+}
+
+.gallery-box-vertical {
+    width: 300px;
+    height: 400px;
+    border: 2px #285767 solid;
+
+}
+.gallery-box-vertical:hover {
+    transform: scale(1.5);
+    background-color: white;
+}
+.gallery-box-vertical .image-travel{
+    display: block;
+    width: 200px;
+    height: 300px;
+    object-fit: contain;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 20px;
+
+}
+.gallery-box-horizontal {
+    width: 400px;
+    height: 330px;
+    border: 2px #285767 solid;
+
+}
+.gallery-box-horizontal:hover {
+    transform: scale(1.5);
+    background-color: white;
+}
+.gallery-box-horizontal .image-travel{
+    display: block;
+    width: 400px;
+    height: 200px;
+    object-fit: contain;
+    margin: 30px auto 20px;
+}
+.city-names {
+    display: flex;
+    align-items: center;
+}
+.gallery-box-vertical .location-icon {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    object-fit: scale-down;
+    margin-left: 50px;
+
+}
+.gallery-box-vertical span {
+    margin-left: 10px;
+    color: #285767;
+    font-weight: bold;
+    font-size: 17px;
+}
+.gallery-box-horizontal .location-icon {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    object-fit: scale-down;
+    margin-left: 65px;
+
+}
+.gallery-box-horizontal span {
+    margin-left: 10px;
+    color: #285767;
+    font-weight: bold;
+    font-size: 17px;
+}
+/*FOOTER*/
+footer{
+    display: block;
+    width: 100%;
+    bottom: 0;
+    background-color: #316B7E;
+    text-align: center;
+}
+#footer {
+    display: block;
+    text-align: center;
+    color: white;
+    margin-top: 10px;
+}
+.social-media img {
+    width: 40px;
+    height: 40px;
+    padding: 5px;
+    margin-top: 20px;
+}
+.insta {
+    margin-left: 200px;
+}
+/*@media only screen and (max-width: 600px) {*/
+/*    body {*/
+/*        transform: scale(0.5);*/
+/*    }*/
+/*}*/
+
+
